@@ -1,0 +1,80 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Build directories
+dist/
+build/
+out/
+coverage/
+.temp/
+.temp-*
+
+# Environment variables
+.env
+.env.*.local
+*.env.local
+
+# Cache and temporary files
+.cache/
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Static system files
+Thumbs.db
+*.orig
+
+# Editor-specific settings
+.vscode/
+.idea/
+
+# Test output
+coverage/
+*.lcov
+*.lcov.*
+.jest/
+
+# TypeScript
+*.tsbuildinfo
+
+# Next.js
+.next/
+
+# Nuxt.js
+.nuxt/
+node_modules/
+
+# SvelteKit
+.svelte-kit/
+build/
+
+# Storybook
+storybook-static/
+
+# Yarn, NPM and PNPM
+.yarn/
+.yarnrc.yml
+.pnp.*
+.pnpm-debug.log*
+
+# Lock files (optional)
+# Uncomment if lock files should be ignored, though it's usually recommended to version them
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Custom rules (if needed, based on your specific project)
+# Add any other paths or patterns to exclude here
