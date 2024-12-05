@@ -46,7 +46,7 @@ https
 
     response.on("end", () => {
       // 下载完成
-      if (totalBytes) {
+         if (totalBytes) {
         bar.stop();
       } else {
         console.log("下载完成，但无法计算进度条。");

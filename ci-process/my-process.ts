@@ -29,7 +29,6 @@ export class ProgressBar {
       progress = 1;
       this.value = this.total;
     }
-
     const barSize = 40;
 
     const completeSize = Math.floor(progress * barSize);
@@ -37,7 +36,7 @@ export class ProgressBar {
 
     write(ansiEscapes.cursorRestorePosition);
 
-    write(chalk.blue("█").repeat(completeSize));
+    write(chalk.redBright("█").repeat(completeSize));
     write("░".repeat(incompleteSize));
     write(` ${this.value} / ${this.total}`);
   }

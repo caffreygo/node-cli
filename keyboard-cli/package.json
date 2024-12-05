@@ -1,0 +1,22 @@
+{
+  "name": "keyboard-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@types/ansi-escapes": "^4.0.4",
+    "ansi-escapes": "^7.0.0",
+    "chalk": "^5.3.0",
+    "pm2": "^5.4.3"
+  }
+}
